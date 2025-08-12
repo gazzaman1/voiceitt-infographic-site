@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small adjustments for printing */
+@page { size: A3 landscape; margin: 10mm; }
+body { -webkit-print-color-adjust: exact; }
